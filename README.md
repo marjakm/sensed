@@ -3,6 +3,9 @@ sensed
 
 A simple 2D node editor. Experimenting with wireless sensor network editing/visualization. Just a quick timewaste..
 
+install with pip >= 1.5:
+pip install --process-dependency-links git+https://github.com/fdkz/sensed
+
 
 prerequisites
 =============
