@@ -186,10 +186,10 @@ class Node:
 
         if self.selected:
             outer_color = (1., .4, .4, 1.)
-            self.inner_color = (sum(x) for x in zip(self.inner_color, lighter))
+            self.inner_color = list(sum(x) for x in zip(self.inner_color, lighter))
         elif self.mouse_hover:
             outer_color = (1., 1., 1., 1.)
-            self.inner_color = (sum(x) for x in zip(self.inner_color, lighter))
+            self.inner_color = list(sum(x) for x in zip(self.inner_color, lighter))
         else:
             outer_color = (1., 1., 1., 1.)
 
