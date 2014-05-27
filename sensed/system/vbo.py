@@ -1,6 +1,5 @@
 from OpenGL.GL import *
 from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
-from ctypes import c_float
 
 from ctypes import c_float, c_void_p
 

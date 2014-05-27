@@ -1,20 +1,13 @@
 import logging
 llog = logging.getLogger(__name__) # the name 'log' is taken in sdl2
 
-#import math
-#import random
 import time
-import ctypes
-#import traceback
-#import sys
-
-from OpenGL.GL import *
-#from OpenGL.GLU import *
-from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
 
 from sdl2 import *
+from OpenGL.GL import *
+#from OpenGL.GLU import *
 
-import editor_main
+from sensed.system import editor_main
 
 
 class SubMain:

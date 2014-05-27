@@ -1,26 +1,25 @@
 import logging
 llog = logging.getLogger(__name__) # the name 'log' is taken in sdl2
-llog.info("make sure numpy is installed, or glGenBuffers will complain and crash"
-          "")
-import math
+llog.info("make sure numpy is installed, or glGenBuffers will complain and crash")
+
 import os
 import sys
-import random
-
-from OpenGL.GL import *
-from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
+import math
 
 from sdl2 import *
+from OpenGL.GL import *
 
-import window
-import camera
-from modules import gltext
-import floor
-import coordinate_system
-import vector
-import fps_counter
-import node_editor
-import nugui
+from sensed.system.copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
+from sensed.system.modules import gltext
+
+from sensed.system import window
+from sensed.system import camera
+from sensed.system import floor
+from sensed.system import coordinate_system
+from sensed.system import vector
+from sensed.system import fps_counter
+from sensed.system import node_editor
+from sensed.system import nugui
 
 
 def g_set_opengl_pixel_projection(w_pixels, h_pixels, z_near=None, z_far=None):

@@ -35,7 +35,7 @@ import os
 import time
 import random
 
-import conf_reader
+from sensed.system import conf_reader
 
 
 def main(py_path, log_path):

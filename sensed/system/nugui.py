@@ -3,11 +3,10 @@ llog = logging.getLogger(__name__) # the name 'log' is taken in sdl2
 
 import time
 
-from OpenGL.GL import *
-from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
-
 from sdl2 import *
+from OpenGL.GL import *
 
+from sensed.system.copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
 
 class ListBox: pass
 

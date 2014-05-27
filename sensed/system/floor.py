@@ -1,8 +1,8 @@
 from OpenGL.GL import *
-from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
+from sensed.system.copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
 
-import vector
-import vbo
+from sensed.system import vector
+from sensed.system import vbo
 
 
 class Floor:

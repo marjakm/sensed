@@ -1,7 +1,7 @@
 # update: 2012.07.10
 
-import axial_frame
-import vector
+from sensed.system import axial_frame
+from sensed.system import vector
 
 
 class CoordinateSystem:

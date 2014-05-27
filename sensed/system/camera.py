@@ -1,10 +1,9 @@
 import math
 
 from OpenGL.GL import *
-from copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
 
-import coordinate_system
-import vector
+from sensed.system.copenglconstants import * # import to silence opengl enum errors for pycharm. pycharm can't see pyopengl enums.
+from sensed.system import vector
 
 
 class Camera:

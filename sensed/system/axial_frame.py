@@ -1,6 +1,6 @@
 # update: 2012.07.10
 
-from vector import *
+from sensed.system.vector import *
 
 #
 # x - right
